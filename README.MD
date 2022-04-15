@@ -18,6 +18,11 @@ Feito isso sua nota ja foi adicionada, podendo utilizar para lembrar de algo, e 
 3. O projeto possui icones, de adicionar e remover, para isso utilizei o react-icons.
 4. Cada note tem sua id para remover-la e para isso foi utilizado o uuid para que gere um valor random e unico.
 
+##Iniciar o projeto:
+1. Ao realizar um git clone no projeto, lembre de utilizar o `yarn install` ou `npm install` para instalar as dependências do projeto.
+2. Utilize 'yarn' ou 'npm' para iniciar o projeto, como `yarn dev` ou `npm dev` o de sua preferencia 😃
+3. O projeto vai iniciar em `http://localhost:3000/` e os dados de suas notas adicionadas ficam em local storage.
+
 ### Este é um projeto de estudos.
 Como relatado este é um projeto de estudos para reforçar o conhecimento, utilizando context API, local storage, hooks entre outros. 
 
