@@ -9,6 +9,7 @@ const TittlePage = () => {
     fontWeight: "700",
     textAlign: "center",
     background: "#ddd",
+    boxShadow: "rgba(0, 0, 0, 0.45) 0px 25px 20px -20px",
     color: "#000",
     padding: "5px",
   };
