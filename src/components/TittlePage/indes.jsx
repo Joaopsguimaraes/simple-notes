@@ -1,24 +1,24 @@
-import React from 'react';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import '@fontsource/roboto/300.css';
-import '@fontsource/roboto/500.css';
+import React from "react";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/900.css";
 
 const TittlePage = () => {
+  const TittleStyle = {
+    fontFamily: "roboto",
+    fontWeight: "900",
+    textAlign: "center",
+    background: "#ddd",
+    color: "#000",
+    padding: "5px",
+  };
 
-    const TittleStyle = {
-        fontFamily: 'roboto',
-        fontWeight: '500',
-        textAlign: 'center',
-        background: '#ccc',
-        padding:'10px'
-    }
-
-    return (
-        <Box sx={TittleStyle}>
-            <Typography variant='h2'>Simple Note</Typography>
-        </Box>
-    )
-}
+  return (
+    <Box sx={TittleStyle}>
+      <Typography variant="h4">Simple notes</Typography>
+    </Box>
+  );
+};
 
 export default TittlePage;

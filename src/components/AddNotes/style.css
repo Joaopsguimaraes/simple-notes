@@ -1,0 +1,29 @@
+.add-notes {
+  width: 30%;
+  margin: 2% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+@media (max-width: 900px) {
+  .add-notes {
+    width: 300px;
+    display: inline-flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .add-notes {
+    width: 250px;
+    display: inline-flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,21 @@
+.Notes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.notes-list {
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  margin-left: 5%;
+  gap: 20px;
+}
+@media (max-width: 1000px) {
+  .notes-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+  }
+}
