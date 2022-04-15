@@ -1,13 +1,12 @@
 import React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import "@fontsource/roboto/300.css";
-import "@fontsource/roboto/900.css";
+import '@fontsource/roboto/700.css';
 
 const TittlePage = () => {
   const TittleStyle = {
     fontFamily: "roboto",
-    fontWeight: "900",
+    fontWeight: "700",
     textAlign: "center",
     background: "#ddd",
     color: "#000",

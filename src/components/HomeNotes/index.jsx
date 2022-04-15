@@ -3,7 +3,7 @@ import "./style.css";
 import { useNote } from "../../context/noteContext";
 import AddNotes from "../AddNotes";
 import Notes from "../Notes";
-import TittlePage from "../TittlePage/indes";
+import TittlePage from "../TittlePage/";
 
 const HomeNotes = () => {
   const { noteData } = useNote();

@@ -36,7 +36,7 @@ const AddNotes = () => {
       />
       <TextField
         sx={{ width: "100%", background: "#fff", borderRadius: "10px" }}
-        label="Content Note"
+        label="Description Note"
         value={noteContent}
         onChange={handleContent}
         multiline
